@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="images/bebe.jpg" rel="icon" sizes="192x192">
+		<link rel="stylesheet" href="stylish.css">
+		<link rel="stylesheet" href="fonts/fonts.css">
+		<script src="./js/jquery-3.5.1.min.js"></script>
+		<script src="./js/theJuice.js"></script>
+		<title>Shane</title>
+	</head>
+	<body style="font-family: Quando; background-color: rgb(20, 20, 20);">
+		<div class="menu">
+			<div style="padding: 10px;">
+				<h2 style="margin-left: 30px; margin-top: 40px; font-size: 30px;"> Welcome to Shane Vincent</h2>
+					<div style="margin-left: 40px;">
+						<p class="cont" id="parapap" style="line-height: 30px; font-size: 16px; margin-top: 150px; margin-right: 40px;"> Hi there! My name is Shane. I write music, do sound design, play trumpet, and participate in a plethora of other fun activities.
+							<br><br><br>Whether you're here to check out my past projects, to learn more about hiring me, or just to keep up with my life, feel free to click on one of the categories to the right and start exploring.
+							<br><br><br>It's lovely to have you here.<br><br>-Shane</p>
+						<div class="navBar" style="opacity: 0%">
+								<div class="navItem" style="margin-top: 15vh;">
+									<a style="font-size: 20px; color: rgb(148, 113, 48);">Compositions</a>
+								</div>
+								<div class="navItem">
+									<a class="navWords" onclick="fadeOut('./music.html')">Performance and Recording</a>
+								</div>
+								<div class="navItem">	
+									<a class="navWords" onclick="fadeOut('./sound.html')">Sound Design</a>
+								</div>
+								<div class="navItem">
+									<a class="navWords" onclick="fadeOut('./projects.html')">Other Projects</a>
+								</div>
+								<div class="navItem">
+									<a class="navWords" onclick="fadeOut('./about.html')">About</a>
+								</div>
+						</div>
+					</div>
+			</div>
+		</div>
+		<div class="content cont">
+			<img class ="center" src="./images/LineArtShane.png" height="1000px" style="padding: 5px; margin: auto; position: absolute; z-index: 10; pointer-events: none;">
+			<img class ="center" src="./images/LineArtBG.png" height="1000px" style="padding: 5px; align-items: center; position: absolute; z-index: -10; pointer-events: none;">
+			<a class="navWords revolve" style="margin-top: 100px; height: auto;" onclick = "linkDelay('side/compositions.html')">Compositions</a>
+			<a class="navWords revolve" style="margin-top: 180px; height: auto; animation-delay: -6s;" onclick = "linkDelay('side/music.html')">Performance/<br>Recording</a>
+			<a class="navWords revolve" style="margin-top: 260px; height: auto; animation-delay: -12s;" onclick = "linkDelay('side/sound.html')">Sound Design</a>
+			<a class="navWords revolve" style="margin-top: 340px; height: auto; animation-delay: -18s;" onclick = "linkDelay('side/projects.html')">Other Projects</a>
+			<a class="navWords revolve" style="margin-top: 420px; height: auto; animation-delay: -24s;" onclick = "linkDelay('side/about.html')">About</a>
+			<a class="navWords revolve" style="margin-top: 500px; height: auto; animation-delay: -30s;" onclick = "linkDelay('side/about.html')">Contact</a>
+		</div>
+	</body>
+</html>
