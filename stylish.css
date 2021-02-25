@@ -1,6 +1,21 @@
 *{ 
     box-sizing: border-box;
 }
+*{
+    scrollbar-width: thin;
+    scrollbar-color: rgb(15, 15, 15) rgb(20, 20, 20);
+}
+    *::-webkit-scrollbar {
+    width: 12px;
+}
+    *::-webkit-scrollbar-track {
+    background: rgb(20, 20, 20);
+}
+    *::-webkit-scrollbar-thumb {
+    background-color: rgb(15, 15, 15);
+    border-radius: 20px;
+    border: 3px solid rgb(20, 20, 20);
+}
 body,html{
 	scroll-behavior: smooth;
 	overflow: hidden;
@@ -87,8 +102,9 @@ h2 {
 
 }
 .box {
-    float: left;
-    margin-left: 10px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 30px;
     height: 33vh;
     max-height: 300px;
     width: 33vh;
@@ -161,7 +177,6 @@ h2 {
     white-space: nowrap;
 }
 .headerDiv {
-    height: 12vh;
     padding-left: 10px;
     padding-top: 50px;
 }
@@ -171,6 +186,13 @@ h2 {
 }
 .contentRow {
     height: 45vh;
+    min-width: 60vw;
+}
+.scrollRow {
+    width: 100%;
+    white-space:nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 .pageImg {
     width: 50%;
@@ -271,32 +293,23 @@ h2 {
     background: #3A6F9A;
     vertical-align: middle;
 }
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
+button {
+    margin: 0px;
     border-radius: 50%;
-    cursor: pointer;
-}
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
-.fa-youtube {
-    background: #bb0000;
-    color: white;
-  }
+    width: 60px;
+    height: 60px;
+    border: none;
+    padding: 10px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    border:1px solid black;
+    background: blanchedalmond;
+    outline: none;
+ }
+ button:hover {
+    background: rgb(201, 166, 120);
+    box-shadow: 5px 10px 18px rgb(20, 20, 20);
+    outline: none;
+ }
+ 
