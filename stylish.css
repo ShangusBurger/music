@@ -77,7 +77,6 @@ h2 {
 .content {
     width: 70%;
     height: 100%;
-    min-height: 400px;
     float: left;
     overflow: hidden;
     align-items: center; 
@@ -106,9 +105,7 @@ h2 {
     margin-left: 15px;
     margin-top: 30px;
     height: 33vh;
-    max-height: 300px;
     width: 33vh;
-    max-width: 300px;
     z-index: 0;
     cursor: pointer;
     opacity: 100%;
