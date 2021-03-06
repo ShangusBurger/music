@@ -5,13 +5,13 @@
     scrollbar-width: thin;
     scrollbar-color: rgb(15, 15, 15) rgb(20, 20, 20);
 }
-    *::-webkit-scrollbar {
+*::-webkit-scrollbar {
     width: 12px;
 }
-    *::-webkit-scrollbar-track {
+*::-webkit-scrollbar-track {
     background: rgb(20, 20, 20);
 }
-    *::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
     background-color: rgb(10, 10, 10);
     border-radius: 20px;
     border: 3px solid rgb(20, 20, 20);
@@ -156,6 +156,7 @@ h2 {
     width: auto;
     -webkit-transition: all .5s ease;
     transition: opacity .5s ease;
+    pointer-events: none;
 }
 @keyframes revolvin{
     0% {margin-left: 0px; animation-timing-function: ease-in-out;}
