@@ -25,4 +25,6 @@ function fromPage (URL) {
 }
 $('.contant,.pageInfo,.pageContent,.musicInfo,.musicContent').animate({
     opacity: 1}, 1000)
+
+
    
