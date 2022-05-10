@@ -310,7 +310,8 @@ button {
     box-shadow: 5px 10px 18px rgb(20, 20, 20);
     outline: none;
  }
- .navBar {
+ #mainNav {
+     opacity: 0;
  }
  .bioPrph {
     width: 60%;
@@ -343,7 +344,7 @@ button {
     body,html {
         overflow-y: scroll;
     }
-    .navBar {
+    #mainNav {
         opacity: 100%;
     }
     .center, .revolve, .bioImg {
