@@ -90,6 +90,10 @@ h2 {
     color: blanchedalmond;
     text-align: left;
 }
+.portf {
+    color: blanchedalmond;
+    text-align: center;
+}
 .center {
     display: block;
     margin-left: auto;
@@ -239,6 +243,28 @@ h2 {
     align-items: center; 
     opacity: 0%;
 }
+.portInfo {
+    width: 30%;
+    min-width: 361px;
+    height: 100%;
+    padding: 30px;
+    float: left;
+    color: blanchedalmond;
+    text-align: left;
+}
+.portContent {
+    width: 70%;
+    height: 80%;
+    margin-top: 10px;
+    min-height: 400px;
+    float: left;
+    overflow: hidden;
+    align-items: center; 
+}
+.portBlock {
+    height: 75vh;
+    margin-top: 50px;
+}
 .pageText {
     margin-left: 40px;
     margin-top: 30px;
@@ -332,10 +358,16 @@ button {
  .emailnphone {
      font-size: 30px;
  }
+ .portInfoSwap {
+     margin-left: -60px;
+ }
  @media only screen and (max-width: 1200px) {
-    .menu, .content, .pageContent{
+    .menu, .content, .pageContent, .portContent {
       width: 100%; 
       height: fit-content;
+    }
+    .portInfoSwap {
+        margin-left: 0;
     }
     .pageContent {
         margin-left: 10px;
@@ -354,7 +386,7 @@ button {
     .bioPrph {
         width: 100%;
     }
-    .pageInfo, .musicInfo{
+    .pageInfo, .musicInfo, .portInfo{
         height: fit-content;
     }
     .vodCenter {
