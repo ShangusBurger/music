@@ -6,15 +6,15 @@
     scrollbar-color: rgb(15, 15, 15) rgb(20, 20, 20);
 }
 *::-webkit-scrollbar {
-    width: 12px;
+    width: 18px;
 }
 *::-webkit-scrollbar-track {
     background: rgb(20, 20, 20);
 }
 *::-webkit-scrollbar-thumb {
-    background-color: rgb(10, 10, 10);
-    border-radius: 20px;
-    border: 3px solid rgb(20, 20, 20);
+    background-color: rgb(122, 122, 122);
+    border-radius: 25px;
+    border: 2px solid rgb(20, 20, 20);
 }
 body,html{
 	scroll-behavior: smooth;
@@ -189,6 +189,12 @@ h2 {
 .contentRow {
     height: 45vh;
     min-width: 60vw;
+}
+.scrollRow {
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 .scroll {
     height: 100%;
