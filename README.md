@@ -1,1 +1,1 @@
-a repository housing the code for my personal portfolio website: shanevincentmusic.com
+a repository housing the code for what used to be my personal portfolio website: shanevincentmusic.com
